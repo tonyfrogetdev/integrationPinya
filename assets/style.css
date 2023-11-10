@@ -1,0 +1,753 @@
+/* RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/*     MOBILE  FIRST      */
+
+
+/* Page 1 */
+
+.page1 {
+    background-image: url(/assets/img/fond\ pinya.png);
+}
+
+
+nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #64507C;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+
+nav ul {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #6B6768;
+    font-size: 14px;
+}
+
+nav ul li a .nav-accueil {
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+/* HERO */
+
+
+
+.hero-span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #64507C;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+
+.hero-slogan {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hero-slogan ul li {
+    padding: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* .hero-slogan p{
+    display: flex;
+    flex-direction: column;
+ 
+    padding: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero-slogan p span{
+    color: #64507C;
+}
+*/
+.hero-slogan ul li span {
+    color: #64507C;
+}
+
+.hero p {
+    color: #6B6768;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-button {
+
+    background-color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    width: 180px;
+    height: 48px;
+    border: 1px white;
+    box-shadow: 0px 5px 5px #6B6768;
+    cursor: pointer;
+
+}
+
+.play {
+    margin: 20px;
+}
+
+.hero-media span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.hero-retours {
+    margin-top: 15px;
+}
+
+.hero-contenu {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+}
+
+.hero-contenu p {
+    color: white;
+    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.contenu1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 0px 60px;
+    background-color: #262425;
+
+
+}
+
+.contenu2 {
+    width: 100px;
+    height: 100px;
+    background-color: #64507C;
+
+}
+
+.contenu3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 60px 0px;
+    background-color: #262425;
+
+}
+
+
+.hero-pictures {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-avis {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.star {
+    fill: #fcb808;
+}
+
+.voir-avis {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #6B6768;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.reseaux ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+
+
+}
+
+.reseaux ul li {
+    margin-top: 20px;
+}
+
+.reseaux ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+/* Page DROITE*/
+
+.pageDroite{
+    visibility: hidden;
+}
+
+/* Page 2 */
+
+.page2 {
+    background-color: #262425;
+
+}
+
+.partieAbonnement {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rectangleBlanc {
+    margin: 50px;
+    width: 147px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.partieAbonnement p {
+
+    width: 100%;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.abonnements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.rectangleViolet {
+    width: 225px;
+    height: 181px;
+    border-radius: 50px;
+    background-color: #683A93;
+    margin-top: 50px;
+}
+
+
+.parMois {
+    width: 225px;
+    height: 181px;
+    border-radius: 50px;
+    background-image: url(/assets/img/parMois.png);
+    background-size: contain;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboMois {
+    width: 124px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+
+#l1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+#l2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#l3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 10px;
+   
+}
+
+#l4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 10px;
+   
+}
+
+
+
+/* DESKTOP */
+
+
+@media screen and (min-width:1280px){
+   .page1{
+    width: 80%;
+   }
+   nav {
+    height: 118px;
+}
+   nav .logo {
+    font-size: 32px; 
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 70px;
+
+}
+
+nav ul li a {
+    font-size: 16px;
+}
+
+/* HERO */
+
+.hero-span {
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.hero-slogan {
+
+    display: flex;
+    font-size: 55px;
+    justify-content: flex-start;
+    margin-left: 18px;
+   
+}
+
+
+.hero p{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    font-size: 20px;
+    width: 595px;
+    height: 72px;
+    margin-left: 30px;
+    
+}
+
+.hero-media {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+
+.hero-contenu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 22px;
+    margin-left: 30px;
+
+}
+
+.hero-contenu p{
+    font-size: 15px;
+    margin-right: 20px;
+    width: 67px;
+   
+}
+
+
+.hero-pictures {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.alignement-avis{
+    display: flex;
+    margin-inline-start: 10px;
+    margin-left: 30px;
+    
+}
+.hero-avis {
+    
+    padding-left: 10px;
+   
+}
+
+.voir-avis {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+  
+}
+
+
+   .pageDroite{
+    background-color: #262425;
+   }
+
+
+   /* PAGE du BAS*/
+
+   .partieAbonnement {
+   
+    display: flex;
+    align-items: normal;
+}
+
+   .rectangleBlanc{
+   width: 196px;
+   height: 73px;
+   cursor: pointer;
+   
+   }
+
+   .rectangleBlanc p{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #64507C;
+    display: flex;
+    justify-content: center;
+    
+    
+   }
+}
+
+
+
+
+
+
+
+/*
+.rectangleBlanc {
+    margin: 50px;
+    width: 147px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.partieAbonnement p {
+
+    width: 100%;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.abonnements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.rectangleViolet {
+    width: 225px;
+    height: 181px;
+    border-radius: 50px;
+    background-color: #683A93;
+    margin-top: 50px;
+}
+
+
+.parMois {
+    width: 225px;
+    height: 181px;
+    border-radius: 50px;
+    background-image: url(/assets/img/parMois.png);
+    background-size: contain;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboMois {
+    width: 124px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+
+#l1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+#l2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#l3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 10px;
+   
+}
+
+#l4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: 10px;
+   
+}
+
+*/
+
+
+
+
+
+
